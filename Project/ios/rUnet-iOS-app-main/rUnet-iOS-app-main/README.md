@@ -12,8 +12,8 @@
       
       
 ### ToUIImage.swift
-      + The file is responsible for converting SwiftUI (Newest Framework) image type to UIImage type of UIKit (Old Framework)
-      + Then we use this image to convert to CGImage of UIKit in ContentView.swift file
+      + The file is responsible for converting SwiftUI (Newest Framework) image type to UIImage type of UIKit (Old Framework).
+      + Then we use this image to convert to CGImage of UIKit in ContentView.swift file.
 
 
 ### ImageProcessor.swift
@@ -25,4 +25,7 @@
       + We then make a prediction on the model using the CVPixelBuffer obtained from ImageProcessor.swft
       
 ### FilterModel.mlmodel
-      + It is the CoreML model using which we are trying to apply filter on the image
+      + It is the CoreML model using which we are trying to apply filter on the image.
+
+### Output
+      + Could not convert the obtained MultiArray output of CoreML model to an image. Final step left to apply the filter in the app.
