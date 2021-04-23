@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import SwiftUI
 
-// referred code from https://stackoverflow.com/q/57028484 from line# 13 to 41
+// referred code from https://stackoverflow.com/a/64005395/7067711 from line# 13 to 41
 extension View {
 // This function changes View to UIView as we can not convert a SwiftUI image to a UIImage directly, then calls another function which will extract the image as UIImage from UIView
 // to convert the newly-made UIView to a UIImage.
